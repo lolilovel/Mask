@@ -1,0 +1,19 @@
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.js"></script>
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/home.css">
+
+<link href="../Mobiscroll/css/mobiscroll.custom-3.0.0-beta6.min.css" rel="stylesheet" type="text/css" />
+<script src="../Mobiscroll/js/mobiscroll.custom-3.0.0-beta6.min.js" type="text/javascript"></script>
+
+<input id="demo" placeholder="Please Select..." />
+<script type="text/javascript">
+    $(function () {
+            //初始化配置参数      
+           $('#demo').mobiscroll().calendar({
+            theme: 'mobiscroll',    //日期选择器使用的主题
+            lang: 'zh',          //使用语言
+            display: 'bottom'     //显示方式
+        });
+    });
+</script>
